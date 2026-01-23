@@ -19,7 +19,10 @@ In both experiments the speed is constant with an pwm Input of 1560 which is the
 To messure the deviation two TCRT Sensors are attached to either side of the Car. The TCRT 5000L Sensors consists of an infrared LED and a phototransistor. The reflected light changes the voltage in the phototransistor and is thus translated into a measurable value. The measured value reflects whether the sensor is located over a white or a black surface. \todo{Grafik einfügen wie die Deviation gemessen wird}
 By using two sensors on each side it is possible to detect whether the car deviates slightly or more from the track. 
 Accordingly to this input for the deviation the steering angle is adjusted by sending a corresponding pwm signal to the servomotor which is responsible for the steering control.
-(Note: A Figure for the wiring will be added later)
+
+![1000022815](https://github.com/user-attachments/assets/351e3c19-f353-4960-92b8-b2845b5c4295)
+(TCRT picture: https://eckstein-shop.de/10StkTCRT5000InfrarotReflektierendeSensorTCRT5000LIR950mm5V3A)
+
 
 ## Input Membershipfunctions
 <img width="702" height="600" alt="image" src="https://github.com/user-attachments/assets/299cdd2d-c915-4f78-ad2e-b6beb827f461" />
