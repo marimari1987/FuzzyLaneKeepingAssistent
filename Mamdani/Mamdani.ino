@@ -65,5 +65,5 @@ void loop() {
 
 
 
-  delay(20);  // Loop entspannt lassen, ESC mag 50 Hz
+  delay(20);  
 }
