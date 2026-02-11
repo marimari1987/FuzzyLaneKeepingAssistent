@@ -23,15 +23,19 @@ Accordingly to this input for the deviation the steering angle is adjusted by se
 ![1000022815](https://github.com/user-attachments/assets/351e3c19-f353-4960-92b8-b2845b5c4295)
 (TCRT picture: https://eckstein-shop.de/10StkTCRT5000InfrarotReflektierendeSensorTCRT5000LIR950mm5V3A)
 
-
 ## Input Membershipfunctions
 <img width="702" height="600" alt="image" src="https://github.com/user-attachments/assets/299cdd2d-c915-4f78-ad2e-b6beb827f461" />
 
 ## Output Membershipfunctions
 <img width="681" height="436" alt="image" src="https://github.com/user-attachments/assets/2786b50e-4b5f-4899-98c8-8735bb6e862c" />
 
+### Note:
+An extended version with five instead of three Output Membershipfunctions can be found in BachelorProject2 written in Python.
+The C++ Version for Arduino will be added later.
+
 ## Defuzzyification Center of Area
 For the Defuzzification the Area was separated into geometric figures. The Center of Area represents the crips Output value and is calculated as \sum{}{n/m}
 <img width="521" height="679" alt="image" src="https://github.com/user-attachments/assets/14a36008-1bc5-4f44-8bcd-d86d8fba2a4f" />
+
 
 
