@@ -8,11 +8,12 @@
 * Fuzzy.h
 * GeometricShapes.cpp
 * GeometricShapes.h
-* Mamdani.ino
-Contains an older Version for the implementation of the Mamdani Mehtod for the Arduino IDE written in C++
+* Mamdani.ino  
+<p>Contains an older Version for the implementation of the Mamdani Mehtod for the Arduino IDE written in C++
 The main class is Mamdani.ino where the ESP32 Controller get's setup for inputs, calculation and output of the pwm value. Fuzzy.cpp and Fuzzy.h are classes that use the Mamdani Method to calculate an output value in the shape of a pwm signal for steering control.
 GeometricShapes.cpp and GeometricShapes.h are classes that are used for defuzzification without the need of integral calculations.
 In this older version of the Mamdani Method only two Outputfunctions were used.
+</p>
 
 ## Mamdani_v2
 * Fuzzy.cpp
@@ -21,18 +22,19 @@ In this older version of the Mamdani Method only two Outputfunctions were used.
 * GeometricShapes.h
 * Mamdani.ino
 * fuzzy.py
-Contains a fully functioning implementation for the Memdani Method and additional a version written in python for theoretical simulations (fuzzy.py).
+<p>Contains a fully functioning implementation for the Memdani Method and additional a version written in python for theoretical simulations (fuzzy.py).
 The main class is Mamdani.ino where the ESP32 Controller get's setup for inputs, calculation and output of the pwm value. Fuzzy.cpp and Fuzzy.h are classes that use the Mamdani Method to calculate an output value in the shape of a pwm signal for steering control.
 GeometricShapes.cpp and GeometricShapes.h are classes that are used for defuzzification without the need of integral calculations.
 Contrary to the previous version five output membershipfunctions are used for higher resulution in steering control.
-
+</p>
 ## Sugeno
 * Fuzzy.cpp
 * Fuzzy.h
 * Sugeno.ino
 * fuzzy.py
-Contains a fully functioning implementation der the Sugeno Method on Arduino IDE (Sugeno.ino, Fuzzy.cpp, Fuzzy.h) and in python (fuzzy.py)
+<p>Contains a fully functioning implementation der the Sugeno Method on Arduino IDE (Sugeno.ino, Fuzzy.cpp, Fuzzy.h) and in python (fuzzy.py)
 The main class is Sugeno.ino where the ESP32 Controller get's setup for inputs, calculation and output of the pwm value. Fuzzy.cpp and Fuzzy.h are classes that use the Sugeno Method to calculate an output value in the shape of a pwm signal for steering control.
+</p>
 
 # Background: Fuzzy Logic
 With fuzzy logic it is possible to model membership degree of elements in a Set. 
