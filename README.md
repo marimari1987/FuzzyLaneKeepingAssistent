@@ -1,3 +1,5 @@
+I created this project as part of my bachelor's thesis. The goal was a comparison between the two mainly used Fuzzy Control Methods: The Mamdani Method and the Takagi Sugeno Kang (TSK or Sugeno) Method.
+
 # Content
 * Mamdani
 * Mamdani_v2
