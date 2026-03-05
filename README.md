@@ -27,15 +27,11 @@ Accordingly to this input for the deviation the steering angle is adjusted by se
 <img width="702" height="600" alt="image" src="https://github.com/user-attachments/assets/299cdd2d-c915-4f78-ad2e-b6beb827f461" />
 
 ## Output Membershipfunctions
-<img width="681" height="436" alt="image" src="https://github.com/user-attachments/assets/2786b50e-4b5f-4899-98c8-8735bb6e862c" />
-
-### Note:
-An extended version with five instead of three Output Membershipfunctions can be found in BachelorProject2 written in Python.
-The C++ Version for Arduino will be added later.
+<img width="444" height="347" alt="image" src="https://github.com/user-attachments/assets/21cbf4b3-05e0-45f3-8211-f85614e71a4e" />
 
 ## Defuzzyification Center of Area
 For the Defuzzification the Area was separated into geometric figures. The Center of Area represents the crips Output value and is calculated as \sum{}{n/m}
-<img width="521" height="679" alt="image" src="https://github.com/user-attachments/assets/14a36008-1bc5-4f44-8bcd-d86d8fba2a4f" />
+<img width="550" height="759" alt="image" src="https://github.com/user-attachments/assets/9a394d94-4342-4de0-90eb-c30cd9c15f2b" />
 
 
 
